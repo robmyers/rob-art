@@ -1,0 +1,6 @@
+rob-art
+-------
+
+By Rob Myers - rob@robmyers.org
+
+See the documentation in ./documentation for how to run the software. You'll need a Lisp interpreter or compiler such as OpenMCL, SBCL or CLISP, and a PostScript viewer such as GhostScript or Preview.
