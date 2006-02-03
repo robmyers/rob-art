@@ -1,5 +1,5 @@
 ;;  draw-something.asd - The main package for draw-something
-;;  Copyright (C) 2004  Rob Myers rob@robmyers.org
+;;  Copyright (C) 2006  Rob Myers rob@robmyers.org
 ;;
 ;;  This program is free software; you can redistribute it and/or modify
 ;;  it under the terms of the GNU General Public License as published by
@@ -27,14 +27,16 @@
    (:file "geometry")
    (:file "point")
    (:file "line")
+   (:file "circle")
+   (:file "arc")
    (:file "rectangle")
    (:file "polyline")
    (:file "cell-matrix")
    (:file "colour")
    (:file "postscript")
    (:file "turtle")
-   (:file "codelet")
    (:file "form")
    (:file "figure")
+   (:file "codelet")
    (:file "drawing")
    (:file "draw-something")))

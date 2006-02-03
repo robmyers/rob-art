@@ -1,5 +1,5 @@
 ;;  package.lisp - The main package for draw-something
-;;  Copyright (C) 2005 Rob Myers rob@robmyers.org
+;;  Copyright (C) 2006 Rob Myers rob@robmyers.org
 ;;
 ;;  This program is free software; you can redistribute it and/or modify
 ;;  it under the terms of the GNU General Public License as published by
