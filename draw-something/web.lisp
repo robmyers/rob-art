@@ -178,7 +178,8 @@
   "Write an rss entry for the svg file"
   (let ((html-filename (html-svg-filename svg-file))
 	(basename (pathname-name svg-file)))
-    (format rss-file "  <title>draw-something image ~a</title>
+    (format rss-file "    <item>
+      <title>draw-something image ~a</title>
       <link>http://www.robmyers.org/draw-something/drawings/~a</link>
       <guid>http://www.robmyers.org/draw-something/drawings/~a</guid>
       <pubDate>~a</pubDate>
@@ -186,7 +187,8 @@
     </item>
 "
 	    ;; We use the svg file time as the html file may have been remade
-	    basename html-filename html-filename (file-rss-timestamp svg-file) html-filename basename)))
+	    basename html-filename html-filename (file-rss-timestamp svg-file) 
+	    html-filename basename)))
 
 (defun write-rss-file (svg-filenames)
   "Write the rss file listing the most recent html files"
