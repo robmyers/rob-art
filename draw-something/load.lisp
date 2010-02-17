@@ -1,4 +1,4 @@
-();;  load.lisp - Load the asdf system.
+;;  load.lisp - Load the asdf system.
 ;;  Copyright (C) 2004  Rob Myers rob@robmyers.org
 ;;
 ;; This file is part of draw-something.
